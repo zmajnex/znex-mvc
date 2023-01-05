@@ -15,7 +15,6 @@ class Router
             $params = $_GET;
         }
         // Initialize default action and params
-        $action = 'index';
         $actionParams = [];
 
         // Parse URL and determine action and params
