@@ -1,0 +1,25 @@
+{
+    "name": "plutonium/mvc",
+    "description": "MVC in PHP8 project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "lib/helpers.php"
+        ],
+        "psr-4": {
+            "Plutonium\\Core\\": "core/",
+            "Plutonium\\Controllers\\": "controllers/",
+            "Plutonium\\Lib\\": "lib/"
+
+        }
+    },
+
+    "authors": [
+        {
+            "name": "nenad",
+            "email": "zmajnex@gmail.com"
+        }
+    ],
+    "require": {}
+}
